@@ -17,7 +17,7 @@ const NoteEditor = React.createClass({
     },
 
     onChangeNote(noteTitle, noteText, noteColor){
-        this.setState({text: noteTitle, title: noteText});
+        this.setState({text: noteText, title: noteTitle});
         this.handleColorChange(noteColor);
     },
 

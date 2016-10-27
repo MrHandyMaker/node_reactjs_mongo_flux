@@ -37,7 +37,7 @@ export function findById(id){
 }
 
 export function updateNote(id, data){
-    return Note.update({"_id": ObjectId(id), "title": data.title})
+    return Note.update({"_id": id, "title": data.title, "text": data.text, "color": data.color})
 }
 
 export function deleteNote(id){

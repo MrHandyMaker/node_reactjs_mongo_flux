@@ -52,7 +52,7 @@ const App = React.createClass ({
     render() {
         return (
             <div className='App'>
-                <h2 className='App__header'>NotesApp</h2>
+                <h2 className='App__header'>MyNotes</h2>
                 <NoteEditor
                     note_id ={this.state.note._id}
                     onNoteAdd={this.handleNoteAdd}
